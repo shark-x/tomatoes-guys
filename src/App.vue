@@ -1,9 +1,13 @@
 <template>
-  <Header/>
+    <q-layout view="hHh lpR fFf">
+        <Header/>
+        <Page/>
+        <Footer/>
+    </q-layout>
 </template>
 
 <script setup>
-import "agnostic-vue/dist/index.css";
-import 'agnostic-vue/dist/common.min.css'
 import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+import Page from '@/components/Page.vue'
 </script>
